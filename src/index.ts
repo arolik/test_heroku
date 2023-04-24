@@ -4,7 +4,7 @@ const port = process.env.PORT || 5000;
 
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('hello world!!! fhfh')
+    res.send('hello world!!! this page install on heroku service')
 })
 
 app.listen(port, () => {
